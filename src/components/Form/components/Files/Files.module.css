@@ -1,0 +1,78 @@
+.filesList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 30px;
+  background-color: #F2F8FD;
+}
+
+.filesItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 0 1px 4px #CEE0EF;
+  background-color: #FFFFFF;
+}
+
+.filesItemInvalid {
+  box-shadow: inset 0 1px 4px rgb(254, 67, 67);
+}
+
+.filesItemImg {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.plus svg {
+  width: 30px;
+  height: 30px;
+}
+
+.plus svg path {
+  fill: #222222;
+  stroke: #222222;
+  opacity: 60%;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer
+}
+
+.close svg {
+  fill: #00395C;
+  opacity:  0.8;
+}
+
+.filePreview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+}
+
+.filePreviewClose {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer
+}
+
+.filePreviewClose svg {
+  fill: #00395C;
+  opacity:  0.8;
+}
+
+.filePreviewImg {
+  max-width: 720px;
+  max-height: 520px;
+}
